@@ -1,0 +1,49 @@
+proxies:
+- name: 新加坡
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 1933
+  server: sg1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 41142
+  server: 54.251.190.150
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇸🇬SG_1|5.4MB/s
+  network: grpc
+  port: 10037
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: D2436339-0F26-479A-8064-4D91C2B93652
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇸🇬SG_2|4.5MB/s
+  network: grpc
+  port: 10036
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: D2436339-0F26-479A-8064-4D91C2B93652
